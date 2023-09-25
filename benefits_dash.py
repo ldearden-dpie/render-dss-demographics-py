@@ -114,18 +114,8 @@ def update_graph(value):
     
     
     return [
-        # dbc.Row([dbc.Col(html.H2(children='Projected population numbers', style={'textAlign':'left'}))], className="mt-4"),
         dbc.Row(dbc.Col(graph1), className="plotly-full-screen"),
-        # dbc.Row(dbc.Col(html.H2(children='Age distribution', style={'textAlign':'left'})), className="mt-4"),
-        # dbc.Row(dbc.Col(graph2), className=""),
-        # dbc.Row(dbc.Col(html.H2(children='Population pyramids', style={'textAlign':'left'})), className="mt-4"),
-        # dbc.Row(dbc.Col(graph3), className=""),
-        # dbc.Row(dbc.Col(html.H2(children='Population accounts', style={'textAlign':'left'})), className="mt-4"),
-        # dbc.Row([dbc.Col(html.Div(className="columnOne"), width=3), dbc.Col(graph4), dbc.Col(html.Div(className="columnThree"), width=3)]),
         dbc.Row(dbc.Col(table1, style={'overflowX':'auto'}), className=""),
-        # dbc.Row(dbc.Col(html.H2(children='Difference in accounts to Common Planning Assumptions', style={'textAlign':'left'})), className="mt-4"),
-        # dbc.Row(dbc.Col(table2, style={'overflowX':'auto'}), className=""),
-        # dbc.Row([dbc.Col(graph3, lg=6), dbc.Col(graph4, lg=6)]),
     ]
 
 # @app.callback(
