@@ -17,6 +17,7 @@ region_list = clean_benefits_dataframe['LGA name'].unique()
 # Initialize the app - incorporate css
 external_stylesheets = [dbc.themes.BOOTSTRAP,'https://cdn.jsdelivr.net/npm/nsw-design-system@3/dist/css/main.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 change_region = html.Div(
     [
